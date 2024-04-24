@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#Projects\\CV5Text\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D83C8B51-6100-49AF-8C57-FCC1633D8248}|CV5Text\\CV5Text.csproj|e:\\c#projects\\cv5text\\cv5text\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D83C8B51-6100-49AF-8C57-FCC1633D8248}|CV5Text\\CV5Text.csproj|solutionrelative:cv5text\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\C#Projects\\CV5Text\\CV5Text\\bin\\Debug\\net8.0\\test.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CV5Text\\bin\\Debug\\net8.0\\test.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 243,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#Projects\\CV5Text\\CV5Text\\Program.cs",
+              "RelativeDocumentMoniker": "CV5Text\\Program.cs",
+              "ToolTip": "E:\\C#Projects\\CV5Text\\CV5Text\\Program.cs",
+              "RelativeToolTip": "CV5Text\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAkwE4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:33:49.154Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 157,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.xml",
+              "DocumentMoniker": "E:\\C#Projects\\CV5Text\\CV5Text\\bin\\Debug\\net8.0\\test.xml",
+              "RelativeDocumentMoniker": "CV5Text\\bin\\Debug\\net8.0\\test.xml",
+              "ToolTip": "E:\\C#Projects\\CV5Text\\CV5Text\\bin\\Debug\\net8.0\\test.xml",
+              "RelativeToolTip": "CV5Text\\bin\\Debug\\net8.0\\test.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-28T12:19:24.69Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#Projects\\CV6WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\customerform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\customerform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\customerform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\customerform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\myconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\myconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|e:\\c#projects\\cv6wpf\\cv6wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F0D05CE-8A0E-4698-971D-014E9969C48E}|CV6WPF\\CV6WPF.csproj|solutionrelative:cv6wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 243,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyConverter.cs",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MyConverter.cs",
+              "RelativeDocumentMoniker": "CV6WPF\\MyConverter.cs",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MyConverter.cs",
+              "RelativeToolTip": "CV6WPF\\MyConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:48:20.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerForm.xaml.cs",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\CustomerForm.xaml.cs",
+              "RelativeDocumentMoniker": "CV6WPF\\CustomerForm.xaml.cs",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\CustomerForm.xaml.cs",
+              "RelativeToolTip": "CV6WPF\\CustomerForm.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:36:44.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerForm.xaml",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\CustomerForm.xaml",
+              "RelativeDocumentMoniker": "CV6WPF\\CustomerForm.xaml",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\CustomerForm.xaml",
+              "RelativeToolTip": "CV6WPF\\CustomerForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T11:30:40.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\Customer.cs",
+              "RelativeDocumentMoniker": "CV6WPF\\Customer.cs",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\Customer.cs",
+              "RelativeToolTip": "CV6WPF\\Customer.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T10:41:42.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CV6WPF\\MainWindow.xaml",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MainWindow.xaml",
+              "RelativeToolTip": "CV6WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T10:39:13.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CV6WPF\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\C#Projects\\CV6WPF\\CV6WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CV6WPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwCUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T10:39:01.826Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

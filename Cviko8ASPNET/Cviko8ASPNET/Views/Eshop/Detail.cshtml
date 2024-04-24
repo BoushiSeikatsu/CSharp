@@ -1,0 +1,8 @@
+﻿@{
+    Product p = ViewBag.Product;
+}
+<h1>@p.Name</h1>
+<img src = "@p.Photo" />
+<p>@p.Description</p>
+
+<a href="@Url.Action("Add", new {Id = p.Id})">Přidat do košíku</a>

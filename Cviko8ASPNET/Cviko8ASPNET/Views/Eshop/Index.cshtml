@@ -1,0 +1,7 @@
+﻿<h1>Seznam produktů</h1>
+<ul>
+    @foreach(Product p in ViewBag.Products)
+    {
+        <li><a href="@Url.Action("Detail", new {id = p.Id})">@p.Name</a></li>
+    }
+</ul>

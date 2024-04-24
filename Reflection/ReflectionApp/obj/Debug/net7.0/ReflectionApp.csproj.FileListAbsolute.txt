@@ -1,0 +1,14 @@
+E:\C#Projects\Reflection\ReflectionApp\bin\Debug\net7.0\ReflectionApp.exe
+E:\C#Projects\Reflection\ReflectionApp\bin\Debug\net7.0\ReflectionApp.deps.json
+E:\C#Projects\Reflection\ReflectionApp\bin\Debug\net7.0\ReflectionApp.runtimeconfig.json
+E:\C#Projects\Reflection\ReflectionApp\bin\Debug\net7.0\ReflectionApp.dll
+E:\C#Projects\Reflection\ReflectionApp\bin\Debug\net7.0\ReflectionApp.pdb
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.AssemblyInfoInputs.cache
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.AssemblyInfo.cs
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.csproj.CoreCompileInputs.cache
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.dll
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\refint\ReflectionApp.dll
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.pdb
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ReflectionApp.genruntimeconfig.cache
+E:\C#Projects\Reflection\ReflectionApp\obj\Debug\net7.0\ref\ReflectionApp.dll

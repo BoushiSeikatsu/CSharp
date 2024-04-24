@@ -1,0 +1,14 @@
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\bin\Debug\net8.0\Cviko3CSharp.exe
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\bin\Debug\net8.0\Cviko3CSharp.deps.json
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\bin\Debug\net8.0\Cviko3CSharp.runtimeconfig.json
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\bin\Debug\net8.0\Cviko3CSharp.dll
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\bin\Debug\net8.0\Cviko3CSharp.pdb
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.AssemblyInfoInputs.cache
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.AssemblyInfo.cs
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.csproj.CoreCompileInputs.cache
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.dll
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\refint\Cviko3CSharp.dll
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.pdb
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\Cviko3CSharp.genruntimeconfig.cache
+E:\C#Projects\Cviko3CSharp\Cviko3CSharp\obj\Debug\net8.0\ref\Cviko3CSharp.dll

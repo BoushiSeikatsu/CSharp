@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Cviko7ASPCore/1.0.0": {
+        "runtime": {
+          "Cviko7ASPCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cviko7ASPCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

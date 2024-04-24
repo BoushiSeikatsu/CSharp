@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#Projects\\Cviko8ASPNET\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\controllers\\eshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\controllers\\eshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\models\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\models\\orderform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\views\\eshop\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\views\\eshop\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\views\\eshop\\done.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\views\\eshop\\done.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\views\\eshop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\views\\eshop\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\views\\eshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\views\\eshop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|e:\\c#projects\\cviko8aspnet\\cviko8aspnet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B52BBB7B-9D7C-4A5F-8EC7-7923CCBA0EFB}|Cviko8ASPNET\\Cviko8ASPNET.csproj|solutionrelative:cviko8aspnet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Done.cshtml",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Done.cshtml",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Views\\Eshop\\Done.cshtml",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Done.cshtml",
+              "RelativeToolTip": "Cviko8ASPNET\\Views\\Eshop\\Done.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T11:41:32.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderForm.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Models\\OrderForm.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Models\\OrderForm.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Models\\OrderForm.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Models\\OrderForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:29:56.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Form.cshtml",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Views\\Eshop\\Form.cshtml",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Form.cshtml",
+              "RelativeToolTip": "Cviko8ASPNET\\Views\\Eshop\\Form.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T11:27:51.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:10:44.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Controllers\\BaseController.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:21:46.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EshopController.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\EshopController.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Controllers\\EshopController.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Controllers\\EshopController.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Controllers\\EshopController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAuwDkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:44:50.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Views\\Eshop\\Detail.cshtml",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Detail.cshtml",
+              "RelativeToolTip": "Cviko8ASPNET\\Views\\Eshop\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T10:58:06.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\CartService.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\CartService.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\CartService.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\CartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T11:11:07.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Cviko8ASPNET\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T10:42:47.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Views\\Eshop\\Index.cshtml",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Views\\Eshop\\Index.cshtml",
+              "RelativeToolTip": "Cviko8ASPNET\\Views\\Eshop\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T10:47:07.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Program.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Program.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Program.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:41:39.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\ProductService.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\ProductService.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\ProductService.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:39:34.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Cviko8ASPNET\\Models\\Product.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko8ASPNET\\Cviko8ASPNET\\Models\\Product.cs",
+              "RelativeToolTip": "Cviko8ASPNET\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:38:41.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<koren>
+  <objednavka id="0">
+    <zakaznik>Jan Novak0</zakaznik>
+    <objednavka id="2">
+      <zakaznik>Jan Novak2</zakaznik>
+    </objednavka>
+  </objednavka>
+  <objednavka id="1">
+    <zakaznik>Jan Novak1</zakaznik>
+  </objednavka>
+</koren>

@@ -1,0 +1,32 @@
+﻿<Window x:Class="CV6WPF.CustomerForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CV6WPF"
+        mc:Ignorable="d"
+        Title="Zákazník" Height="250" Width="300">
+    <Window.Resources>
+        <ResourceDictionary>
+            <local:MyConverter x:Key="myConv"/>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Margin="10">
+            <DockPanel>
+                <Label Content="Jméno"/>
+                <TextBox Text="{Binding FirstName, Converter={StaticResource myConv}}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Přijmení"/>
+                <TextBox Text="{Binding LastName}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Věk"/>
+                <TextBox Text="{Binding Age}"/>
+            </DockPanel>
+            <Button Content="Uložit" Margin="0,20,0,0" Click="Save"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>

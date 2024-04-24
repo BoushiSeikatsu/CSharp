@@ -1,0 +1,11 @@
+E:\C#Projects\Reflection\MyLib\bin\Debug\net8.0\MyLib.deps.json
+E:\C#Projects\Reflection\MyLib\bin\Debug\net8.0\MyLib.dll
+E:\C#Projects\Reflection\MyLib\bin\Debug\net8.0\MyLib.pdb
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.AssemblyInfoInputs.cache
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.AssemblyInfo.cs
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.csproj.CoreCompileInputs.cache
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.dll
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\refint\MyLib.dll
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\MyLib.pdb
+E:\C#Projects\Reflection\MyLib\obj\Debug\net8.0\ref\MyLib.dll

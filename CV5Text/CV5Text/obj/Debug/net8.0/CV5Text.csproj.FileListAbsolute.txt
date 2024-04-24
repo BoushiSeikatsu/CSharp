@@ -1,0 +1,14 @@
+E:\C#Projects\CV5Text\CV5Text\bin\Debug\net8.0\CV5Text.exe
+E:\C#Projects\CV5Text\CV5Text\bin\Debug\net8.0\CV5Text.deps.json
+E:\C#Projects\CV5Text\CV5Text\bin\Debug\net8.0\CV5Text.runtimeconfig.json
+E:\C#Projects\CV5Text\CV5Text\bin\Debug\net8.0\CV5Text.dll
+E:\C#Projects\CV5Text\CV5Text\bin\Debug\net8.0\CV5Text.pdb
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.AssemblyInfoInputs.cache
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.AssemblyInfo.cs
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.csproj.CoreCompileInputs.cache
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.dll
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\refint\CV5Text.dll
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.pdb
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\CV5Text.genruntimeconfig.cache
+E:\C#Projects\CV5Text\CV5Text\obj\Debug\net8.0\ref\CV5Text.dll

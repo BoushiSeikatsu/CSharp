@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#Projects\\Cviko7ASPCore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\formmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\formmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\firstpagemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\firstpagemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\authmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\errorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\txtlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\txtlogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\errormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\filemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\filemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|e:\\c#projects\\cviko7aspcore\\cviko7aspcore\\secondpagemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7009DB36-C4CD-4DBC-90C4-001EC28562AD}|Cviko7ASPCore\\Cviko7ASPCore.csproj|solutionrelative:cviko7aspcore\\secondpagemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 225,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FormMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\FormMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FormMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\FormMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:40:12.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\DataService.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\DataService.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\DataService.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\DataService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:36:03.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMyLogger.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\IMyLogger.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\IMyLogger.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\IMyLogger.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\IMyLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:31:33.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorHandler.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\ErrorHandler.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\ErrorHandler.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\ErrorHandler.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\ErrorHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:17:52.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\Program.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\Program.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\Program.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T10:33:42.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\AuthMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\AuthMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\AuthMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\AuthMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T10:52:15.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FirstPageMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FirstPageMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\FirstPageMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FirstPageMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\FirstPageMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T10:39:56.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TxtLogger.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\TxtLogger.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\TxtLogger.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\TxtLogger.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\TxtLogger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:25:16.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\ErrorMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\ErrorMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\ErrorMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\ErrorMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T11:11:33.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FileMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\FileMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\FileMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\FileMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T10:59:58.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SecondPageMiddleware.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\SecondPageMiddleware.cs",
+              "RelativeDocumentMoniker": "Cviko7ASPCore\\SecondPageMiddleware.cs",
+              "ToolTip": "E:\\C#Projects\\Cviko7ASPCore\\Cviko7ASPCore\\SecondPageMiddleware.cs",
+              "RelativeToolTip": "Cviko7ASPCore\\SecondPageMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T10:48:12.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

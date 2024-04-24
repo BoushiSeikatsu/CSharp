@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Cviko8ASPNET</title>
+</head>
+<body>
+    Počet zboží v košíku: @ViewBag.CartProductCount
+    <ul>
+        <li><a href="@Url.Action("Index", "Home", new {test = 5, abc = "test"})">Úvodní stránka</a></li>
+        <li><a href="@Url.Action("Index", "Eshop")">Eshop</a></li>
+        <li><a href="@Url.Action("Form", "Eshop")">Nákupní košík</a></li>
+    </ul>
+   @RenderBody()
+</body>
+</html>

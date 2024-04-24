@@ -1,0 +1,11 @@
+The method or operation is not implemented.
+   at Cviko7ASPCore.SecondPageMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\SecondPageMiddleware.cs:line 14
+   at Cviko7ASPCore.FirstPageMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\FirstPageMiddleware.cs:line 20
+   at Cviko7ASPCore.AuthMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\AuthMiddleware.cs:line 16
+   at Cviko7ASPCore.FileMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\FileMiddleware.cs:line 27
+   at Cviko7ASPCore.ErrorMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\ErrorMiddleware.cs:line 15The method or operation is not implemented.
+   at Cviko7ASPCore.SecondPageMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\SecondPageMiddleware.cs:line 14
+   at Cviko7ASPCore.FirstPageMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\FirstPageMiddleware.cs:line 20
+   at Cviko7ASPCore.AuthMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\AuthMiddleware.cs:line 16
+   at Cviko7ASPCore.FileMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\FileMiddleware.cs:line 27
+   at Cviko7ASPCore.ErrorMiddleware.Invoke(HttpContext ctx) in E:\C#Projects\Cviko7ASPCore\Cviko7ASPCore\ErrorMiddleware.cs:line 15

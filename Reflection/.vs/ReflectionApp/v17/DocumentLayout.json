@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#Projects\\Reflection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E17B11C1-C099-482F-B517-A50270798092}|ReflectionApp\\ReflectionApp.csproj|e:\\c#projects\\reflection\\reflectionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E17B11C1-C099-482F-B517-A50270798092}|ReflectionApp\\ReflectionApp.csproj|solutionrelative:reflectionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|e:\\c#projects\\reflection\\mylib\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|solutionrelative:mylib\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|e:\\c#projects\\reflection\\mylib\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|solutionrelative:mylib\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|e:\\c#projects\\reflection\\mylib\\mylib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2824BBE3-E0DE-4E64-A43C-E206B2298D3F}|MyLib\\MyLib.csproj|solutionrelative:mylib\\mylib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E17B11C1-C099-482F-B517-A50270798092}|ReflectionApp\\ReflectionApp.csproj|e:\\c#projects\\reflection\\reflectionapp\\reflectionapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E17B11C1-C099-482F-B517-A50270798092}|ReflectionApp\\ReflectionApp.csproj|solutionrelative:reflectionapp\\reflectionapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Reflection\\MyLib\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "MyLib\\Models\\Customer.cs",
+              "ToolTip": "E:\\C#Projects\\Reflection\\MyLib\\Models\\Customer.cs",
+              "RelativeToolTip": "MyLib\\Models\\Customer.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T12:17:43.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Reflection\\MyLib\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "MyLib\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\C#Projects\\Reflection\\MyLib\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "MyLib\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAB0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T11:52:35.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\C#Projects\\Reflection\\ReflectionApp\\Program.cs",
+              "RelativeDocumentMoniker": "ReflectionApp\\Program.cs",
+              "ToolTip": "E:\\C#Projects\\Reflection\\ReflectionApp\\Program.cs",
+              "RelativeToolTip": "ReflectionApp\\Program.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T11:34:51.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReflectionApp",
+              "DocumentMoniker": "E:\\C#Projects\\Reflection\\ReflectionApp\\ReflectionApp.csproj",
+              "RelativeDocumentMoniker": "ReflectionApp\\ReflectionApp.csproj",
+              "ToolTip": "E:\\C#Projects\\Reflection\\ReflectionApp\\ReflectionApp.csproj",
+              "RelativeToolTip": "ReflectionApp\\ReflectionApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T11:34:27.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyLib",
+              "DocumentMoniker": "E:\\C#Projects\\Reflection\\MyLib\\MyLib.csproj",
+              "RelativeDocumentMoniker": "MyLib\\MyLib.csproj",
+              "ToolTip": "E:\\C#Projects\\Reflection\\MyLib\\MyLib.csproj",
+              "RelativeToolTip": "MyLib\\MyLib.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-29T11:34:05.978Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
