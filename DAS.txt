@@ -1,0 +1,258 @@
+------------------Transakce-------------------
+Transakce je logická (atomická, nedělitelná) jednotka práce s databází, která obsahuje jednu nebo více
+databázových operací crud. Začíná begin transaction a končí commit nebo rollback.
+Commit -> Transakce úspěšně ukončena. Databáze je nyní v korektním stavu. Commit zavádí potvrzovací bod,
+		, ve smyslu bod v čase, ve kterém je databáze v korektním stavu.
+Rollback -> Transakce neúspěšně provedena. Databáze je v posledním korektním stavu před begin transaction
+Úkolem transakce je převést korektní stav databáze na jiný korektní stav. Po dílčích operacích
+transakce může být databáze v nekorektním stavu. (Třeba po 1 updatu).
+
+
+Klasifikace chyb při transakci:
+	Lokální chyby - chyba v dotazu, přetečení hodnoty atributu.
+	Globální chyby - chyby systémové (soft crash), jako výpadek systému, výpadek proudu apod
+			 chyby disku (hard crash)
+
+
+Zrušit aktualizace transakce lze pomocí log souboru. Programátor připojením k DBS nepracuje přímo se soubory databáze.
+Pro podporu transakcí používá DBS soubor log, uložený na disku, kde jsou zaznamenány detaily o všech operacích provedených transakcí.
+Ná základě těchto záznamů je možné zrušit operace transakce. 
+
+
+Konzistentní vs korektní stav databáze.
+Konzistentní stav databáze je ve chvíli, kdy v databázi neexistují žádné vyjímky z daných integritních omezení.
+Korektní stav databáze je ve chvíli, kdy její stav odpovídá výsledku operace v reálném světě. 
+
+
+ACID
+A - atomičnost -> transakce musí být atomická, jsou provedeny všechny operace nebo žádná.
+C - korektnost -> transakce převádí korektní stav databáze do jiného korektního stavu databáze. 
+		  mezi začátkem a koncem transakce nemusí být databáze v korektním stavu.
+I - izolovanost -> transakce jsou navzájem izolovány. Změny provedené jednou transakcí jsou pro ostatní
+		   transakce viditelné až po provedení COMMIT.
+D - trvalost -> jakmile je transakce potvrzena, změny v databázi se stávají trvalými i po globální chybě.
+
+
+Zotavení. Zotavení znamená zotavení databáze z globální chyby. 
+Jednotkou zotavení je transakce. Po pádu OS nebo DBS a následném zotavení je databáze v korektním stavu, tj
+obsahuje pouze aktualizace potvrzených transakcí.
+
+
+Implementace transakcí
+Všechny aktualizace jsou uloženy v paměti -> systém bude rychlý, po pádu systému přijdeme o data.
+Všechny aktualizace jsou zapsány na disk -> systém bude pomalý.
+Pravidlo dopředného zápisu do logu -> Před ukončením operace commit je do logu zapsán commit záznam,
+	všechny aktualizace jsou zapsány do logu před zápisem do db
+Pro zotavení se využije logu a jeho záznamech o potvrzených aktualizacích
+Po zotavení se provádí jednotlivě tyto operace:
+	UNDO -> stav transakce přerušené chybou není znám a ta musí být zrušena (undo)
+	REDO -> transakce byla úspěšně ukončena (COMMIT), změny ovšem nebyly přeneseny z logu do databaze
+		Transakce musí být přepracována (angl. redo)
+
+Kvůli rychlosti se záznamy tedy ukládají do vyrovnávací paměti.
+Kvůli trvalosti se záznamy ukládají na disk.
+
+
+Základní techniky zotavení
+	Odloženou aktualizací (NO-UNDO/REDO)
+	Okamžitou aktualizací (UNDO/NO-REDO)
+	Kombinovanou technikou (UNDO/REDO)
+
+Odložená aktualizace -> aktualizace záznamů jsou během transakce ukládány do paměti.
+	Po potvrzení transakce jsou nové hodnoty uloženy do logu a poté do databáze.
+	Jedná se tedy o dopředný zápis do logu.
+Zotavení odloženou aktualizací:
+	Pokud transakce selže, není nutné provést UNDO, databáze nebyla aktualizována před COMMIT.
+	REDO bude provedeno v případě, kdy systém zapsal aktualizace do logu ale nedošlo k jejich zapsání do DB.
+Výkon techniky je spíše vyšší, minimální počet diskových operací, v případě dlouhých transakcí však hrozí k přetečení paměti.
+
+Okamžitá aktualizace -> po každé aktualizaci jsou do logu zapsány původní hodnoty záznamů, poté jsou do db zapsány nové hodnoty.
+	Po úspěšném ukončení transakce je do logu zapsán COMMIT záznam.
+	Jedná se opět o dopředný zápis do logu, do logu se vždy píše dříve než se ukládá do databáze.
+	Vyrovnávací paměť se vůbec nevyužívá.
+Zotavení okamžitou aktualizací:
+	Pokud transakce nebyla potvrzena, bude při zotavení zrušena operací UNDO (v logu jsou staré hodnoty ale v db nové)
+	Nové hodnoty jsou v databázi po provedení aktualizace, REDO není nutné.
+Výkon techniky je spíše nižší, maximální počet diskových operací. 
+
+Kombinovaná technika -> kombinace odložené aktualizace a okamžité aktualizace. V praxi se používá tato kombinace UNDO/REDO algoritmu.
+	Nové hodnoty záznamu aktualizací jsou do logu zapsány po COMMIT (pro REDO)
+	Po určitém časovém intervalu dochází k tzv. kontrolním bodům. V tomto bodu se provede zápis aktualizací transakcí do db.
+	Zapisované aktualizace jsou:
+		Aktuálně prováděných transakcí -> před tím jsou do logu uloženy původní hodnoty pro UNDO.
+		Potvrzených transakcí -> jejichž aktualizace nebyly uloženy během předchozího kontrolního bodu.
+		Zápis záznamu kontrolního bodu do logu.
+Zotavení kombinovanou technikou:
+	Vytvoříme dva seznamy transakcí: UNDO a REDO
+	Do UNDO se vloží všechny transakce, které nebyly potvrzeny posledním kontrolním bodem. Seznam REDO je prázdný.
+	DBS prochází záznamy v logu od záznamu posledního kontrolního bodu. 
+		Pokud je pro transakci T nalezen v logu záznam COMMIT, T se přesune ze seznamu UNDO do seznamu REDO.
+	DBS prochází log zpětně a ruší aktualizace ze seznamu UNDO, zapisuje do db původní hodnoty uložené v logu.
+	DBS prochází logem dopředu a přepracováná aktualizace transakcí v seznamu REDO, zapisuje do databáze nové hodnoty uložené v logu.
+	DB je v korektním stavu.
+
+
+Jestliže dojde k chybě disku, tak je možno ji vyřešit redundancí diskových polí RAID, pokud i přesto je db poškozena, pak:
+	Zotavení začíná obnovením db ze záložní kopie popř dump souboru. Jestliže nemáme zálohu pak přijdeme o data.
+	Poté je procházen log soubor a všechny transakce které byly potvrzeny po čase vytvoření zálohy jsou přepracovány.
+	Přijdeme o aktualizace transakcí, které byly z logu smazány po vytvoření zálohy.
+	Přijdeme o všechny aktualizace po čase vytvoření zálohy, pokud přijdeme o log.
+	Není třeba rušit žádné transakce, aktualizace byly zrušeny poškozením databáze.
+
+
+V SQL99 byl zaveden koncept záchranných bodů, který umožňuje rozdělit transakci na menší části.
+V případě zavolání ROLLBACK dojde k návratu do záchraného bodu, nikoliv ke zrušení celé transakce.
+Záchranný bod není ekvivalentní potvrzení změn příkazem COMMIT.
+
+
+SQL Transakce 
+Všechny sql příkazy jsou atomické, kromě call a return
+BEGIN TRANSACTION = START TRANSACTION
+COMMIT = COMMIT WORK
+ROLLBACK = ROLLBACK WORK
+Je třeba si dávat pozor na AUTOCOMMIT, pokud je nastaven na ON, pak rollback nedává smysl.
+Lze nastavit úroveň izolace. například START TRANSACTION READ UNCOMMITED.
+COMMIT AND CHAIN vykoná START TRANSACTION se stejnými parametry jako v předchozím volání po provedení COMMIT.
+Po potvrzení transakce jsou automaticky uzavřeny všechny kurzory. (S vyjímkou kurzoru deklarovaného jako WITH HOLD)
+Záchranný bod je vytvořen příkazem SAVEPOINT nazev_bodu
+Příkazem ROLLBACK TO "nazev_bodu" zrušíme všechny provedené operace po daném bodě.
+RELEASE "nazev_bodu" zruší daný záchranný bod.
+Po ukončení transakce jsou automaticky zrušeny všechny záchranné body.
+
+ORACLE Transakce
+Oracle oproti SQL podporuje jiné COMMIT.
+COMMIT WAIT -> Commit čeká na dokončení zápisu nových hodnot do logu, tím je zaručeno korektní potvrzení aktualizací.
+COMMIT NOWAIT -> Commit nečeká na dokončení zápisu nových hodnot do logu. Data jsou zpřístupněna ostatním transakcím,
+		k zápisu do logu může dojít se zpožděním, po určitou dobu může dojít ke ztrátě aktualizací transakce.
+Lze si zobrazit obsah UNDO A REDO LOGŮ.
+
+ 
+------------------Řízení souběhu-------------------
+Ve chvíli, kdy k DBS přistupuje více uživatelů najednou, pak se jedná o praralelní vykonávání transakcí, neboli souběhu.
+Izolovanost v ACID říká, že se transakce neovlivňují, tzn transakce nesmí vidět aktualizace ostatních transakcí,
+	které nebyly provedeny před začátkem této transakce.
+Plán -> Posloupnost operací transakcí
+Jestliže jsou plány provedeny paralelně, mluvíme o plánu souběžném, nebo taky o plánu paralelním.
+READ zastupuje Select
+WRITE zastupuje UPDATE, INSERT, DELETE.
+Problém souběhu nastává, pokud dvě transakce chtějí číst nebo zapisovat stejný záznam. 
+Tři možnosti konfliktů -> RW, WR, WW.
+Problémy souběhu které mohou nastat:
+	Ztráta aktualizace
+	Nepotvrzená závislost
+	Nekonzistentní analýza
+	Neopakovatelné čtení
+	Výskyt fantomů
+
+
+Ztráta aktualizace nastává ve chvíli, kdy:
+t1 -> Transakce A čte t
+t2 -> Transakce B čte t
+t3 -> Transakce A píše t
+t4 -> Transakce B píše t
+
+Přijdeme tedy o aktualizaci proměnné t provedenou transakcí A, protože B ji přepíše. 
+
+
+Nepotvrzená závislost nastává ve chvíli, kdy:
+t1 -> Transakce B píše t
+t2 -> Transakce A čte t
+t3 -> Transakce B volá ROLLBACK
+
+Transakce A se stala v čase t2 závislou na nepotvrzeném zápisu transakce B v čase t1.
+Transakce A provedla tzv. špinavé čtení.
+Transakce A procuje po čase t3 s neplatnými hodnotami záznamu,
+jelikož došlo k ROLLBACKU a tudíž hodnoty databáze jsou nastaveny na čas před t1.
+
+
+Nekonzistentní analýza nastává ve chvíli, kdy:
+Transakce A a B pracují se stejnými proměnnými.
+Transakce A počítá součet a transakce B převádí částku, tím mění hodnoty proměnných.
+t1 -> Transakce A čte acc1
+t2 -> Transakce A čte acc2
+t3 -> Transakce B čte acc3
+t4 -> Transakce B píše acc3
+t5 -> Transakce B čte acc1
+t6 -> Transakce B píše acc1
+t7 -> COMMIT (tím došlo k aplikování aktualizací hodnot, hodnoty acc1 a acc3 změnily své hodnoty. Ke změně došlo i bez COMMITU, tím že se zapsalo.)
+t8-> Transakce A čte acc3, to je již ale změněno na jinou hodnotu, než byla hodnota acc3 při začátku transakce.
+
+Transakce A má k dispozici nekonzistentní databázi a proto vykoná nekonzistentní analýzu.
+
+
+Neopakovatelné čtení nastává ve chvíli, kdy:
+t1 -> Transakce A čte t
+t2 -> Transakce B píše t
+t3 -> Transakce A čte t
+
+V čase t1 a t3 získá transakce A odlišnou hodnotu záznamu t, jedná se tedy o neopakovatelné čtení. 
+
+
+Výskyt fantomů nastává ve chvíli, kdy:
+Ve chvíli, kdy máme 2 plány pararelních transakcí.
+První transakce provede SELECT a dostane nějaké záznamy.
+Poté druhá transakce provede INSERT, COMMIT a skončí.
+První transakce provede ten samý select a dostane jiné záznamy. 
+
+
+Techniky řízení souběhu jsou:
+	Zamykání -> Při zamykání spravuje systém jednu kopii dat a jednotlivým transakcím přiděluje zámky.
+	Správa verzí -> Při správě verzí systém vytváří kopie dat a sleduje, která z verzí má být viditelná pro ostatní transakce (v závislosti na úrovni izolace).
+
+Současné DBS používají kombinaci zamykání a Správy verzí.
+Zamykání je pesimistický přístup k souběžnému zpracování. Předpokládáme, že paralelní transakce se budou pravděpodobně navzájem ovlivňovat.
+Správa verzí je optimistický přístup. Předpokládáme, že paralelní transakce se nebudou pravděpodobně navzájem ovlivňovat.
+
+Zamykání
+Pokud transakce A chce provést čtení či zápis objektu v databázi, pak požádá o zámek na tento objekt.
+Typy zámků:
+	Sdílený zámek (S), je požadován před čtením záznamu, taky nazývaný zámek pro čtení.
+	Výlučný zámek (X), je požadován před aktualizací záznamu, taky nazývám zámek pro zápis.
+Uzamykání se provádí bez požadavku uživatele DBS, pokud transakce chce získat nebo aktualizovat záznam, je automaticky požadováno přidělení zámku.
+Při požadavku na zamčení záznamu mohou nastat tyto možnosti:
+	Pokud transakce A drží výlučný zámek (X) na záznam t, pak požadavek paralelní transakce B libovolného typu na záznam t není proveden.
+	Pokud transakce A drží sdílený zámek (S) na záznam t, pak požadavek paralelní transakce B na záznam t není proveden, pokud se jedná o požadavek na zámek X.
+		Pokud se jedná o požadavek na zámek (S), pak je požadavek proveden. Více transakcí může držet zámek (S) pro t.
+Jestliže zámek nemůže být povolen, pak transakce přejde do stavu čekání na uvolnění zámku. 
+Transakce jsou řazeny do fronty aby nezůstaly v tomto stavu navždy. Tomu se říká livelock nebo starvation.
+Přísné dvou-fázové zamykání:
+	1. fáze: požadování zámků záznamu
+	2. fáze: pokud je nějaký zámek uvolněn, není možné požadovat další zámek
+		 zámky jsou uvolněny automaticky na konci transakce.
+
+U problému ztráty aktualizace dojde k deadlocku, protože:
+t1 -> Transakce A si vyžádá zámek S pro čtení
+t2 -> Transakce B si vyžádá zámek S pro čtení
+t3 -> Transakce A chce zapisovat, ale transakce B zamkla záznam t. Transakce A čeká.
+t4 -> Transakce B chce zapisovat, ale transakce A zamkla záznam t. Transakce B čeká.
+Obě čekají navždy -> deadlock.
+U nekonzistentní analýzy stejný problém.
+U problému výskytu fantomů musí dojít k zamykání rozsahu dotazu. Nikoliv k zamykání existujících záznamů v tabulce.
+
+Řešení uváznutí (deadlocků) se dělá pomocí:
+	Detekce uváznutí -> časové limity, nebo detekce cyklu v grafu Wait-For.
+	Prevence uváznutí pomocí časových razítek.
+
+Detekce uváznutí
+Časové limity -> Jestliže transakce trvá déle než stanovený časový limit, pak je zrušena pomocí ROLLBACK.
+Detekce cyklu v grafu Waif-For -> V grafu Wait-For zaznamenává systém transakce, které na sebe vzájemně čekají.
+				Jedna z uváznutých transakcí je vybrána a zrušena. Ostatní uváznuté transakce mohou pokračovat v činnosti.
+
+Prevence uváznutí
+Strategie se snaží uváznutí předcházet modifikací uzamykacího protokolu.
+Dve varianty: Wait-Die a Wound-Wait.
+Algoritmus:
+	1. Každé transakci je přiděleno časové razítko, čas začátku transakce, které je jedinečné.
+	2. Pokud transakce A požaduje zámek na záznam, který je již uzamčen transakcí B pak:
+		Wait-Die -> Pokud A je starší než B, pak A přejde do stavu čakání.
+			    Pokud A je mladší než B, pak je transakce A zrušena a spuštěna znovu.
+		Wound-Die-> Pokud A je starší než B, pak B je zrušena a spuštěna znovu.
+			    Pokud A je mladší než B, pak A přejde do stavu čekání.
+	3. Pokud transakce je spuštěna znovu, ponechává si své původní časové razítko.
+
+První část jména popisuje situaci, kdy transakce A je starší než B.
+	Wait-Die -> Do stavu čekání přejde transakce starší.
+	Wound-Wait -> Do stavu čekání přejde transakce mladší.
+Je dokázáno, že v případě těchto protokolů nemůže dojít k uváznutí (deadlock), k nekonečnému čekání transakce (livelock) a ani k nekonečnému znovuspouštení transakce.
+Nevýhoda je vysoký počet operací ROLLBACK.
+

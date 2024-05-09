@@ -1,0 +1,51 @@
+----------DB----------
+_connectionString
+
+using(SqliteConnection connection = new SqliteConnection(_connectionString))
+{
+	await connection.OpenAsync();
+	await connection.Execute("Insert INTO Ukol(id,neco) VALUES (@neco)",ukol);
+}
+------Http stahovani------
+using(HttpClient client = new HttpClient())
+{
+	HttpResponseMessage response = await client.GetAsync(url);
+	string data = response.Content.ReadAsStringAsync();
+}
+
+------Xml deserializace------
+XmlSerializer serializer = new XmlSerializer(typeof(Catalog));//[XmlRoot] trida
+using(StringReader reader = new StringReader(data))
+{
+	Catalog catalog = (Catalog)serializer.Deserialize(reader);
+}
+------Xml serializace------
+XmlSerializer serializer = new XmlSerializer(typeof(Catalog));
+using(StringWriter writer = new StringWriter())
+{
+	serializer.Serialize(writer, catalog);
+}
+-----Json deserializace------
+var options = JsonSerializerOptions
+{
+	PropertyNameCaseInsensitive = true
+};
+Catalog catalog = JsonSerializer.Deserialize<Catalog>(data,options);
+-------Json serializace-------
+string jsonString = JsonSerializer.Serialize(form);
+using(StreamWriter sw = new StreamWriter(new FileStream("rezervace.json", FileMode.Append)))
+{
+	sw.Write(jsonString);
+}
+--------Reflexe--------
+Assembly assembly = new Assembly.LoadFrom(path);
+Type[] types = assembly.GetTypes();
+Type dataStorage = null;
+            foreach(Type t in types)
+            {
+                if(t.Name == "DataStorage")
+                {
+                    dataStorage = t;
+                }
+            }
+Methods = dataStorage.GetMethods(BindingFlags.NonPublic | BindingFlags.Instance);
