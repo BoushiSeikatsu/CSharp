@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model ReservationForm
+@using(Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(x => x.FirstName)
+        @Html.TextBoxFor(x => x.FirstName)
+        @Html.ValidationMessageFor(x => x.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.LastName)
+        @Html.TextBoxFor(x => x.LastName)
+        @Html.ValidationMessageFor(x => x.LastName)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.TelNumber)
+        @Html.TextBoxFor(x => x.TelNumber)
+        @Html.ValidationMessageFor(x => x.TelNumber)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.PersonCount)
+        @Html.TextBoxFor(x => x.PersonCount)
+        @Html.ValidationMessageFor(x => x.PersonCount)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.TimeFrom)
+        <input type="datetime-local" name="TimeFrom" asp-for="TimeFrom"/>
+        @Html.ValidationMessageFor(x => x.TimeFrom)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.TimeTill)
+        <input type="datetime-local" name="TimeTill" asp-for="TimeTill" />
+        @Html.ValidationMessageFor(x => x.TimeTill)
+    </div>
+    <button type="submit">Odešli</button>
+}

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cviko8ASPNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a72f4e94c7fd0453fb108dc294668685cb3b98e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cviko8ASPNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cviko8ASPNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Country</th>
+        <th>Company</th>
+        <th>Price</th>
+        <th>Year</th>
+        <th>Rezervace</th>
+    </tr>
+@foreach(CD cd in ViewBag.CDList)
+{
+    <tr>
+        <td>@cd.Title</td>
+        <td>@cd.Artist</td>
+        <td>@cd.Country</td>
+        <td>@cd.Company</td>
+        <td>@cd.Price</td>
+        <td>@cd.Year</td>
+        <td><button type="submit" onclick="window.location.href='@Url.Action("RedirectToForm","Home")'">Rezervovat</button></td>
+        <td><button type="submit" onclick="window.location.href='@Url.Action("Edit", "Home",new {Id = cd.Id})'">Editovat</button></td>
+    </tr>
+}
+</table>

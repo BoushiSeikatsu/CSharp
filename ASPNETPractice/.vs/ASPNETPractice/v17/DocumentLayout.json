@@ -1,0 +1,227 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CSharpProject\\ASPNETPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\models\\catalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\models\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\models\\cd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\database\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\database\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\models\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\models\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|d:\\csharpproject\\aspnetpractice\\aspnetpractice\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA139E65-A78C-4B4B-8C36-43275D760C79}|ASPNETPractice\\ASPNETPractice.csproj|solutionrelative:aspnetpractice\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "ASPNETPractice\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T19:24:35.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Form.cshtml",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Views\\Home\\Form.cshtml",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Form.cshtml",
+              "RelativeToolTip": "ASPNETPractice\\Views\\Home\\Form.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T14:49:37.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "ASPNETPractice\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:27:56.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Services\\DatabaseService.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "ASPNETPractice\\Services\\DatabaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:27:40.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataLayer.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Database\\DataLayer.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Database\\DataLayer.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Database\\DataLayer.cs",
+              "RelativeToolTip": "ASPNETPractice\\Database\\DataLayer.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:58:11.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Catalog.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\Catalog.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Models\\Catalog.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\Catalog.cs",
+              "RelativeToolTip": "ASPNETPractice\\Models\\Catalog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:43:28.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ASPNETPractice\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAowDAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:32:05.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Program.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Program.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Program.cs",
+              "RelativeToolTip": "ASPNETPractice\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:28:52.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Views\\Home\\Confirm.cshtml",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Confirm.cshtml",
+              "RelativeToolTip": "ASPNETPractice\\Views\\Home\\Confirm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T15:27:35.428Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CD.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\CD.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Models\\CD.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\CD.cs",
+              "RelativeToolTip": "ASPNETPractice\\Models\\CD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T13:37:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ASPNETPractice\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T14:26:47.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationForm.cs",
+              "DocumentMoniker": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\ReservationForm.cs",
+              "RelativeDocumentMoniker": "ASPNETPractice\\Models\\ReservationForm.cs",
+              "ToolTip": "D:\\CSharpProject\\ASPNETPractice\\ASPNETPractice\\Models\\ReservationForm.cs",
+              "RelativeToolTip": "ASPNETPractice\\Models\\ReservationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T14:46:00.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
